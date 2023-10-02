@@ -15,10 +15,7 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": [
-          "libs/shared/utils/cn/**/*.ts",
-          "libs/shared/utils/cn/package.json"
-        ]
+        "lintFilePatterns": ["libs/shared/utils/cn/**/*.ts", "libs/shared/utils/cn/package.json"]
       }
     }
   },

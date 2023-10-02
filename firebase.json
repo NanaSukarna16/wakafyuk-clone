@@ -3,16 +3,8 @@
     {
       "source": "dist/apps/functions",
       "codebase": "default",
-      "ignore": [
-        "node_modules",
-        ".git",
-        "firebase-debug.log",
-        "firebase-debug.*.log"
-      ],
-      "predeploy": [
-        "npx nx run functions:lint",
-        "npx nx run functions:build:production"
-      ]
+      "ignore": ["node_modules", ".git", "firebase-debug.log", "firebase-debug.*.log"],
+      "predeploy": ["npx nx run functions:lint", "npx nx run functions:build:production"]
     }
   ],
   "firestore": {
